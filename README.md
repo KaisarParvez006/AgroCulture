@@ -1,6 +1,6 @@
 # AgroCulture
 🛒 Simple PHP Marketplace Web
-A basic PHP web application where farmers can upload products with pictures, buyers can purchase products, and buyers can post reviews.
+A basic PHP website where farmers can upload products with pictures, buyers can purchase products, and buyers can post reviews.
 It also includes a profile system and a blogging feature for writing and viewing posts.
 
 📄 Files
@@ -20,11 +20,11 @@ db.php — Database connection.
 
 menu.php — Navigation menu.
 
-private_menu.php — Private user menu.
+product_menu.php — Product section menu.
 
 mycart.php — User’s shopping cart.
 
-private_search.php — Private product search.
+product_search.php — Search products.
 
 profile.php — User profile page.
 
@@ -61,3 +61,4 @@ Update database details inside db.php.
 Import required tables (products, users, blogs, reviews, cart).
 
 Run the project on a local server (XAMPP/WAMP).
+
